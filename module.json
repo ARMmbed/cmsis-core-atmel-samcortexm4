@@ -1,0 +1,23 @@
+{
+  "name": "cmsis-core-atmel-samcortexm4",
+  "version": "0.1.0",
+  "description": "CMSIS Core Implementation for Atmel SAM Cortex M4 Microcontrollers",
+  "keywords": [
+  "cmsis",
+	"samcortexm4",
+  "atmel-samcortexm4",
+	"headers_files",
+	"preprocessor"
+  ],
+  "license": "Apache-2",
+  "extraIncludes": [
+  ],
+  "dependencies": {
+    "cmsis-core": "*"
+  },
+  "targetDependencies": {
+    "atmel-samcortexm4-samg55": {
+    "cmsis-core-atmel-samcortexm4-samg55": "*"
+    }
+  }
+}
